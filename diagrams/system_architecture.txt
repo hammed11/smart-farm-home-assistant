@@ -1,0 +1,14 @@
+System Architecture Diagram:
+
+1. **Sensors**: Temperature, humidity, soil moisture sensors
+2. **Microcontroller**: ESP32
+3. **Communication**: MQTT Protocol
+4. **Data Processing**: Cloud Server or Local Server
+5. **User Interface**: Mobile App or Web Dashboard
+6. **Actuators**: Water pumps, relays for controlling devices
+
+**Diagram Layout**:
+- Sensors (connected to Microcontroller)
+- Microcontroller (connected to Cloud Server via MQTT)
+- Cloud Server (communicates with User Interface)
+- User Interface (interacts with Actuators)
