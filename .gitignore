@@ -1,0 +1,26 @@
+# Arduino
+*.bin
+*.hex
+*.elf
+*.exe
+*.dxf
+*.o
+*.pde
+*.class
+*.cpp
+*.h
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.env/
+*.env
+*.pytest_cache/
+*.coverage
+*.egg-info/
+dist/
+build/
